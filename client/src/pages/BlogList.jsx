@@ -8,7 +8,7 @@ function BlogList() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/blogs')
+    axios.get('https://mern-blog-app-backend-kog2.onrender.com')
       .then(res => {
         setBlogs(res.data);
         setLoading(false);

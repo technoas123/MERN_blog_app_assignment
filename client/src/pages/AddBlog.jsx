@@ -19,7 +19,7 @@ function AddBlog() {
     }
 
     try {
-      await axios.post('http://localhost:5000/api/blogs', { title, author, content });
+      await axios.post('https://mern-blog-app-backend-kog2.onrender.com', { title, author, content });
       navigate('/');
     } catch (err) {
       setError('Failed to add blog. Try again later.');
