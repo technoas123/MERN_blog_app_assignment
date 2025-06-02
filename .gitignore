@@ -1,0 +1,10 @@
+# Ignore node_modules folders in both backend and frontend
+server/node_modules/
+client/node_modules/
+
+# Ignore environment files
+server/.env
+client/.env
+
+# Ignore build output from React (if any)
+client/build/
